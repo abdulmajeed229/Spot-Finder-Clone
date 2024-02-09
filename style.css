@@ -1,0 +1,831 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.main{
+    min-height: 100vh;
+    width: auto;
+    background-color: red;
+}
+.navbar{
+    height: 60px;
+    width: auto;
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: blue;
+    border-bottom: 1px solid rgb(243, 232, 232);
+}
+.navbar .left{
+    height: 60px;
+    width: 25%;
+    background-color: white;
+
+}
+    .navbar .middle{
+        height: 60px;
+        width: 41%;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    .navbar .right{
+        height: 60px;
+        text-align: right;
+        padding-right: 30px;
+        width: 34%;
+        background-color: rgb(255, 255, 255);
+    }
+    .left img{
+        height: 40px;
+        padding: 10px 20px;
+        width: 140px;
+    }
+    .middle ul{
+        list-style: none;
+        font-size: 15px;
+        text-align: center;
+        padding: 20px 0px;
+        color: rgb(0, 0, 0);
+        font-weight: 500;
+        font-family: sans-serif;
+      
+    }
+    .middle ul li{
+        display: inline-block;
+        margin: 0px 15px;
+    }
+    .right span i{
+        color: rgb(0, 0, 0);
+    }
+    .right .btn{
+        height: 25px;
+        width: 80px;
+        border: none;
+        font-family: sans-serif;
+        background-color: transparent;
+    }
+    .right .btn1{
+        height: 25px;
+        margin-top: 20px;
+        width: 80px;
+        font-family: sans-serif;
+        background-color: red;
+        color: white;
+        border: none;
+        border-radius: 23px;
+    }
+    .icon{
+        color: rgb(44, 19, 19);
+        font-size: 28px;
+        margin-top: 10px;
+    display: none;
+    }
+    .center{
+        height: 46%;
+        width: auto;
+        display: flex;
+        background-color: aquamarine;
+    }
+    .center-left{
+        min-height: 410px;
+        width: 55%;
+        text-align: left;
+        background-color: rgb(255, 255, 255);
+    }
+    .center-right{
+        min-height: 410px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 45%;
+        background-color: rgb(255, 255, 255);
+    }
+    .center-left h1{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-top: 40px;
+        margin-left: 70px;
+        font-size: 40px;
+        color: rgb(102, 99, 99);
+       
+
+    }
+    .center-left h4{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 70px;
+        padding-top: 10px;
+        color: rgb(84, 88, 84);
+    }
+    .center-left .hi{
+        height: 45px;
+        
+        border: none;
+        width: 80%;
+border: 1px solid rgb(255, 0, 0);
+        margin: 5px 0px;
+        border-radius: 5px;
+        outline: none;
+        
+    }
+
+    .center-left .hello{
+        height: 45px;
+        margin: 5px 0px;
+        width: 262px;
+        border: none;
+        border: 1px solid rgb(255, 0, 0);
+        outline: none;
+        border-radius: 0px;
+        border-radius: 5px;
+       
+    }
+form{
+    text-align: center;
+}
+.bbtt{
+    height: 40px;
+    width: 190px;
+    border: none;
+font-family: sans-serif;
+background-color: red;
+color: white;
+    margin-top: 15px;
+    margin-right: 50%;
+    border-radius: 20px;
+}
+input[type="text"]{
+    background-image: url(icons/location-dot-solid.svg);
+    background-size: 17px;
+    padding-left: 25px;
+    font-size: 15px;
+    background-position: left ;
+    background-repeat: no-repeat;
+  
+}
+input[type="text2"]{
+    background-image: url(icons/car-solid.svg);
+    background-size: 17px;
+    padding-left: 25px;
+    font-size: 15px;
+    background-position: left ;
+    background-repeat: no-repeat;
+   
+}
+input[type="text3"]{
+    background-image: url(icons/arrow-up-solid.svg);
+    background-size: 17px;
+    padding-left: 25px;
+    font-size: 15px;
+    background-position: left ;
+    background-repeat: no-repeat;
+   
+}
+input[type="text4"]{
+    background-image: url(icons/arrow-up-solid.svg);
+    background-size: 17px;
+    padding-left: 25px;
+    font-size: 15px;
+    background-position: left ;
+    background-repeat: no-repeat;
+   
+}
+.center-right img{
+    height: 300px;
+    width: 500px;
+    border-radius: 20px;
+}
+.sec2{
+    height: 100px;
+    width: auto;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+.sec2 h1{
+    color: rgb(75, 73, 73);
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 10px;
+}
+.sec2 h4{
+    color: rgb(116, 112, 112);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.sec3{
+    min-height: 370px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(255, 255, 255);
+}
+.sec3 .img1{
+    height: 280px;
+    width: 380px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border: 1px solid rgb(221, 215, 215);
+}
+.sec3 .img2{
+    height: 280px;
+    width: 380px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border: 1px solid rgb(221, 215, 215);
+}
+.sec3 .img3{
+    height: 280px;
+    text-align: center;
+    width: 380px;
+    border-radius: 10px;
+    border: 1px solid rgb(221, 215, 215);
+    background-color: rgb(255, 255, 255);
+    
+}
+.sec3 .img1 img{
+    height: 170px;
+    width: 100%;
+    border-radius: 10px;
+   
+}
+.sec3 .img2 img{
+    height: 170px;
+    width: 100%;
+    border-radius: 10px;
+}
+.sec3 .img3 img{
+    height: 170px;
+    width: 100%;
+    border-radius:10px ;
+}
+.sec3 h2{
+    color: rgb(84, 88, 84);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 10px;
+}
+.sec3 button{
+    height: 35px;
+    width: 110px;
+    margin-top: 15px;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.sec4{
+    min-height: 700px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+.sec4 h1{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding-top: 50px;
+}
+.sec4 p{
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 30px;
+    text-align: center;
+
+}
+.red1{
+    min-height: 650px;
+    width: 90%;
+    background-color: rgb(212, 91, 91);
+    border-radius: 10px;
+}
+.card{
+    min-height: 350px;
+    widows: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.car1{
+    height: 300px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    text-align: center;
+}
+.car2{
+    height: 300px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    text-align: center;
+}
+.car3{
+    height: 300px;
+    text-align: center;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.car1 img{
+    height: 100px;
+    padding-top: 20px;
+}
+.car2 img{
+    height: 100px;
+    padding-top: 20px;
+}
+.car3 img{
+    height: 100px;
+    padding-top: 20px;
+}
+.car1 h2{
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+}
+.car2 h2{
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+}
+.car3 h2{
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+}
+.car1 p{
+    color: black;
+    font-family: monospace;
+    text-align: justify;
+    padding: 13px;
+    font-size: 15px;
+}
+.car2 p{
+    color: black;
+    font-family: monospace;
+    text-align: justify;
+    padding: 13px;
+    font-size: 15px;
+}
+.car3 p{
+    color: black;
+    font-family: monospace;
+    text-align: justify;
+    padding: 13px;
+    font-size: 15px;
+}
+.cardd{
+    min-height: 60vh ;
+    width:100% ;
+    background-color: rgb(255, 255, 255);
+}
+.cardd-card{
+    min-height: 470px;
+    width: auto;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+}
+.cardd h1{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 42px;
+
+}
+.cardss{
+    height: 360px;
+    width: 260px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 1px solid rgb(233, 225, 225);
+}
+.cardss img{
+    height: 180px;
+    width: 100%;
+    border-radius:   10px 10px 0px 0px;
+}
+.cardss h2{
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    font-size:18px;
+}
+.cardss p{
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 15px;
+}
+.cardss button{
+    margin-left: 70px;
+    margin-top: 30px;
+    background-color: red;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    height: 40px;
+    width: 120px;
+}
+ .comit{
+    height: 300px;
+    width: auto;
+    display: flex;
+    align-items: center;
+
+    background-color: rgb(255, 255, 255);
+}
+.comit .commii{
+    height: 250px;
+    width: 600px;
+    margin-left: 30px;
+    border-radius: 10px;
+    border: 1px solid rgb(224, 211, 211);
+    background-color: rgb(255, 255, 255);
+}
+.line{
+    height: 75px;
+    margin-top: 40px;
+    width: auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+.line .hiii{
+    height: 75px;
+    width: 85px;
+    background-color: rgb(255, 255, 255);
+}
+.line .hii{
+    height: 75px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+ .hiii img{
+    height: 44px;
+    padding: 15px 30px;
+ }
+ .hii span{
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    line-height: 40px;
+ }
+ .hii i{
+    color: gold;
+ }
+
+.hii .good{
+    height: 100px;
+    width: 10px;
+    background-color: rgb(255, 255, 255);
+}
+.sectop0{
+    height: 100vh;
+    width: auto;
+    background-color: rgb(78, 52, 52);
+}
+.h1class{
+    height: 60px;
+    width: auto;
+    background-color: rgb(255, 255, 255);
+}
+.h1class h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 39px;
+    color: rgb(97, 89, 89);
+}
+.sectop0 .center-text{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    background-color: rgb(255, 255, 255);
+}
+.sectop0 .center-text span{
+    color: black;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 15px 40px;
+
+}
+.sectop0 .center-text a{
+
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    padding: 20px 50px;
+}
+.seccard{
+    min-height: 400px;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+.seccard .cardee{
+    height: 380px;
+    width: 350px;
+    background-color: transparent;
+    border: 1px solid rgb(238, 230, 230);
+    border-radius: 10px;
+}
+.cardee img{
+    height: 150px;
+    border-radius: 10px  10px  0px  0px;
+    width: 100%;
+}
+.cardee h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding-top: 15px;
+}
+.cardee p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    text-align: justify;
+    padding: 20px;
+}
+.cardee a{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+    text-decoration: none;
+
+}
+.relpic{
+    min-height: 500px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+.picccc{
+    height: 450px;
+    width: 1150px;
+    position: relative;
+    background-size: cover;
+    border-radius: 20px;
+    background-image: url( img/partner.2428d0330248356fbeb7.png);
+    background-repeat: no-repeat;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 0px 100vmax inset;
+
+}
+.picccc h1{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 90px;
+    font-size: 40px;
+    left: 300px;
+}
+.picccc h3{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top:180px;
+      left: 330px;
+      font-size: 23px
+    }
+    .picccc button{
+        height: 50px;
+        position: absolute;
+        top: 250px;
+        left: 500px;
+        border-radius: 30px;
+        border: none;
+        background-color: red;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: 180px;
+        font-size: 15px;
+
+    }
+    .inputtt{
+        height: 200px;
+        width: auto;
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+    }
+    .inputtt h1{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding-top: 10px;
+        color: rgb(84, 88, 84);
+    }
+    .inputtt p {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+padding-top: 5px;
+color: rgb(84, 88, 84);;
+    }
+.inputtt input{
+    height: 35px;
+    width: 225px;
+    outline: none;
+    border: 1px solid rgb(240, 233, 233);
+    border-radius: 5px 0px 0px 5px;
+    margin-top: 20px;
+}
+.inputtt button{
+    height: 37px;
+    width: 90px;
+    color: white;
+    background-color: rgb(223, 34, 34);
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid rgb(199, 184, 184);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.inputtt [type=""]{
+    padding-left: 15px;
+}
+.foot{
+    min-height: 200px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    background-color: rgb(190, 226, 160);
+
+}
+.cradd{
+    height: 200px;
+    width: 350px;
+    border-top: 2px solid red;
+    background-color: rgb(255, 255, 255);
+}
+.cradd1{
+    height: 200px;
+  border: 1px solid black;
+    width: 350px;
+    display: block;
+    background-color: rgb(255, 255, 255);
+}
+
+.cradd2{
+    height: 200px;
+    border: 1px solid black;
+    width: 350px;
+    display: block;
+    background-color: rgb(255, 255, 255);
+}
+
+.cradd3{
+    height: 200px;
+    border: 1px solid black;
+    width: 360px;
+    display: block;
+    background-color: rgb(255, 255, 255);
+}
+.cradd p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 0px;
+    font-size: 14px;
+    color: red;
+
+  
+
+}
+
+.cradd1 p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+    padding-left: 30px;
+    color: red;
+    
+
+}
+.cradd2 p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+    padding-left: 30px;
+    color: red;
+ 
+
+}
+.cradd3 p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+    padding-left: 30px;
+    color: red;
+  
+
+}
+.cradd p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+    padding-left: 30px;
+    color: red;
+  
+
+}
+.cradd1 a{
+    color: black;
+    display: block;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px 30px;
+}
+
+.cradd2 span  {
+    padding-left: 30px;
+    display: block;
+    font-size: 15px;
+    margin:5px 0px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+    @media only screen and (max-width:1190px) {
+        .icon{
+            display: block;
+        }
+        .navbar ul li {
+            display: none;
+
+        }
+        .navbar ul{
+            display: none;
+        }
+         .btn , .btn1 , span{
+            display: none;
+        }
+        .sec3{
+            /* flex-direction: column; */
+            flex-wrap: wrap;
+        }
+        .cardd-card{
+        flex-wrap: wrap;
+        margin-top: 20px;
+        }
+        .card{
+            flex-wrap: wrap;
+        }
+        .seccard{
+            flex-wrap: wrap;
+        }
+        .center-right {
+display: none;
+        }
+        .center-left{
+            width: 100%;
+        }
+        .cardd h1{
+            padding-top: 20px;
+        }
+        .red1{
+            margin-top: 20px;
+            padding:20px;
+        }
+        .cardss{
+            width: 100%;
+            margin: 10px;
+        }
+        .picccc{
+            background-size:cover;
+            margin: 10px;
+            width: 100%;
+        }
+        .picccc button{
+            left: 120px;
+            top: 280px;
+        }
+    }
+    /* .picccc h1{
+        left: 30px;
+        font-size: 30px;
+        text-align: center;
+    }
+    .picccc h3{
+        left: 10px;
+        text-align: center;
+        padding: 10px;
+    } */
+    .foot{
+      width: auto;
+      height: 204px;
+    }
+    .bbtt{
+        margin-right: 200px;
+    }
